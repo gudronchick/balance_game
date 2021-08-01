@@ -1,0 +1,62 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Arial";
+}
+
+canvas {
+  background: rgb(50, 49, 83);
+  margin: 20px;
+}
+
+.game_field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+#field {
+  transition: transform 0.2s;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.2s;
+  pointer-events: none;
+}
+
+.modal.animated {
+  background: rgba(0, 0, 0, 0.658);
+  pointer-events: all;
+}
+
+.modal-body {
+  width: 400px;
+  background: #fff;
+  margin: calc(10vh + 100px) auto;
+  padding: 30px 0;
+  text-align: center;
+  line-height: 2rem;
+  outline: 3px solid black;
+  outline-offset: -15px;
+  transition: 0.4s;
+  transform: scale(0) rotate(180deg);
+}
+
+.animated .modal-body {
+  transform: scale(1) rotate(0);
+}
