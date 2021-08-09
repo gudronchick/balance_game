@@ -5,6 +5,7 @@ export const Field = styled.canvas`
   width: 550px;
   background: rgb(50, 49, 83);
   margin: 20px;
+  transition: transform 0.1s;
 `;
 
 export const Joystick = styled(Field)`
