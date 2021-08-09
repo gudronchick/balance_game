@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/balance_game/static/css/main.ed3eeee3.chunk.css",
+    "main.js": "/balance_game/static/js/main.fdfff7e8.chunk.js",
+    "main.js.map": "/balance_game/static/js/main.fdfff7e8.chunk.js.map",
+    "runtime-main.js": "/balance_game/static/js/runtime-main.f8a6606e.js",
+    "runtime-main.js.map": "/balance_game/static/js/runtime-main.f8a6606e.js.map",
+    "static/js/2.e78497ce.chunk.js": "/balance_game/static/js/2.e78497ce.chunk.js",
+    "static/js/2.e78497ce.chunk.js.map": "/balance_game/static/js/2.e78497ce.chunk.js.map",
+    "static/js/3.12bb5860.chunk.js": "/balance_game/static/js/3.12bb5860.chunk.js",
+    "static/js/3.12bb5860.chunk.js.map": "/balance_game/static/js/3.12bb5860.chunk.js.map",
+    "index.html": "/balance_game/index.html",
+    "static/css/main.ed3eeee3.chunk.css.map": "/balance_game/static/css/main.ed3eeee3.chunk.css.map",
+    "static/js/2.e78497ce.chunk.js.LICENSE.txt": "/balance_game/static/js/2.e78497ce.chunk.js.LICENSE.txt",
+    "static/media/win.a625b00b.png": "/balance_game/static/media/win.a625b00b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8a6606e.js",
+    "static/js/2.e78497ce.chunk.js",
+    "static/css/main.ed3eeee3.chunk.css",
+    "static/js/main.fdfff7e8.chunk.js"
+  ]
+}
